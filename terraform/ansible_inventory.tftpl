@@ -1,0 +1,13 @@
+[tester]
+tester ansible_host=${tester_public_ip}
+
+[tester:vars]
+ansible_user=opc
+ansible_private_key_file=~/.ssh/scalecompute
+
+[server]
+server ansible_host=${server_public_ip}
+
+[server:vars]
+ansible_user=opc
+ansible_private_key_file=~/.ssh/scalecompute

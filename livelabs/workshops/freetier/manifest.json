@@ -1,0 +1,35 @@
+{
+  "workshoptitle": "Scale Up and Down Compute with zero downtime Oracle Cloud",
+  "help": "livelabs-help-oci_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "description": "What the workshop is about",
+      "filename": "../../content/intro/intro.md"
+    },
+    {
+      "title": "Get Started",
+      "description": "Prerequisites for LiveLabs (Oracle-owned tenancies). The title of the lab and the Contents Menu title (the title above) match for Prerequisite lab. This lab is always first.",
+      "filename": "https://oracle-livelabs.github.io/common/labs/cloud-login/cloud-login.md"
+    },
+    {
+      "title": "Lab 1: Infrastructure",
+      "description": "Infrastructure",
+      "filename": "../../content/infra/infra.md"
+    },
+    {
+      "title": "Lab 2: Scale Up and Down",
+      "description": "Scale Up and Down",
+      "filename": "../../content/scale/scale.md"
+    },
+    {
+      "title": "Lab 3: Clean Up (Optional)",
+      "description": "Clean Up (Optional)",
+      "filename": "../../content/cleanup/cleanup.md"
+    },
+    {
+      "title": "Need help",
+      "filename": "https://oracle-livelabs.github.io/common/labs/need-help/need-help-livelabs.md"
+    }
+  ]
+}

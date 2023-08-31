@@ -1,0 +1,19 @@
+---
+- name: Install K6 repo
+  dnf:
+    name: "https://dl.k6.io/rpm/repo.rpm"
+    disable_gpg_check: true
+    state: present
+- name: Install Node and K6
+  dnf:
+    name:
+    - "@nodejs:18"
+    - "k6"
+    update_cache: yes
+- name: Copy tester files
+  copy:
+    src: ../../../../tester/{{ item }}
+    dest: /home/opc/tester/
+    owner: opc
+  with_items:
+    - "index.js"

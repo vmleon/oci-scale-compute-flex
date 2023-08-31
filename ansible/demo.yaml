@@ -1,0 +1,11 @@
+---
+- name: Server
+  hosts: server
+  become: true
+  roles:
+    - server
+- name: Tester
+  hosts: tester
+  become: true
+  roles:
+    - tester
