@@ -6,10 +6,10 @@
 
 This workshop will help you learn how Oracle Cloud Compute Flex shapes can scale up and down the CPU without downtime.
 
-## TODO
+## TODO
 
 - Set up Load Balancer
-- Set up to servers (only one at the moment)
-- While running K6 test, drain load from server 1
+- Set up servers (only one at the moment)
+- While running the K6 test, drain load from server 1
 - Scale server 1, and reboot
 - Restore traffic on server 1
